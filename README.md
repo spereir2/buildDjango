@@ -28,3 +28,10 @@ Notes
 - The repository intentionally excludes the `tutorial-env/` virtualenv and local sqlite DB from version control.
 - Add project-specific documentation or split projects into separate repos if preferred.
 
+
+Available as separate repositories:
+
+- https://github.com/spereir2/chefsTable
+- https://github.com/spereir2/demoproject
+
+If you want each project removed from this monorepo, I can delete the folders and keep only the links here.
