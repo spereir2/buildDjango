@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# env
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+
+# Virtualenv created by tutorial
+tutorial-env/
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# env files
+.env
+
