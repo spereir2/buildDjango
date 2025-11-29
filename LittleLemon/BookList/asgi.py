@@ -3,6 +3,9 @@ ASGI config for BookList project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
+This configuration allows the Django application to run in an ASGI (Asynchronous
+Server Gateway Interface) environment, which is required for asynchronous features.
+
 For more information on this file, see
 https://docs.djangoproject.com/en/5.2/howto/deployment/asgi/
 """

@@ -1,11 +1,29 @@
 #!/usr/bin/env python
-"""Django's command-line utility for administrative tasks."""
+"""
+Django's command-line utility for administrative tasks.
+
+This module is the entry point for running the Django application, executing
+management commands, and performing other administrative tasks via the
+command line.
+"""
 import os
 import sys
 
 
 def main():
-    """Run administrative tasks."""
+    """
+    Run administrative tasks.
+
+    This function configures the Django environment and executes command-line
+    utilities. It expects the DJANGO_SETTINGS_MODULE environment variable
+    to be set, defaulting to 'BookList.settings'.
+
+    Args:
+        None
+
+    Returns:
+        None
+    """
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'BookList.settings')
     try:
         from django.core.management import execute_from_command_line
